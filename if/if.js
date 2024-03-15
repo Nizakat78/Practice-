@@ -1,11 +1,22 @@
-var b = 10, c = 50;
-if (!(b > c)) {
-    console.log("".concat(b, " is greater then ").concat(c)); // this is executed  because the condition in if statement becomes false
-    console.log("".concat(c, " is greate then ").concat(b));
+/* let b: number = 10 , c = 50
+
+if(!(b > c)){
+    console.log(`${b} is greater then ${c}`) // this is executed  because the condition in if statement becomes false
+    console.log(`${c} is greate then ${b}`)
 }
-else if (b == c) {
-    console.log("".concat(c, "  is equal is  ").concat(b));
+else if(b == c){
+    console.log(`${c}  is equal is  ${b}`)
+}
+else{
+    console.log(`${b} is less then ${c}`)
+} */
+var nam1 = "4577", nam2 = "6790";
+if (nam1 > nam2) {
+    console.log(" Hello ".concat(nam1));
+}
+else if (nam1 == nam2) {
+    console.log("Hello ".concat(nam2));
 }
 else {
-    console.log("".concat(b, " is less then ").concat(c));
+    console.log("Both are Same");
 }
